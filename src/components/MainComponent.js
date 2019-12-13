@@ -1,3 +1,5 @@
+// Tania MainComponent.js
+
 import React, { Component } from 'react';
 import Directory from './DirectoryComponent';
 import CampsiteInfo from './CampsiteInfoComponent';
