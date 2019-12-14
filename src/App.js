@@ -7,7 +7,6 @@ import './App.css';
 
 const store = ConfigureStore();
 
-
 class App extends Component {
     render() {
         return (
@@ -18,7 +17,7 @@ class App extends Component {
               </div>
             </BrowserRouter>
         </Provider>
-    };
+    )};
 }
 
 export default App;
