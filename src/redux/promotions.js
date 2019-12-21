@@ -1,4 +1,5 @@
 import * as ActionTypes from './ActionTypes';
+
 export const Promotions = (state = { isLoading: true,
                                         errMess: null,
                                         promotions: [] }, action) => {
@@ -14,5 +15,5 @@ export const Promotions = (state = { isLoading: true,
             
         default:
           return state;
-      }
+    }
 };
